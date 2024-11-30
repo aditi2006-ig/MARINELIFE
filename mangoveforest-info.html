@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelp Forests</title>
+  <style>
+    /* Page styling */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Mangroves_at_sunset.jpg/640px-Mangroves_at_sunset.jpg'); /* Replace with a kelp forest image URL */
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      color: #fff;
+    }
+
+    .content {
+      display: flex; /* Use flexbox to align content side by side */
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+      border-radius: 10px;
+      line-height: 1.8;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #ffcc00; /* Golden text for title */
+      width: 100%;
+    }
+
+    .text {
+      flex: 1; /* Allow the text to take up available space */
+      padding-right: 20px; /* Space between text and video */
+    }
+
+    p {
+      font-size: 1.2em;
+      text-align: justify;
+    }
+.video-container {
+  flex: 0 0 50%; /* The video will take up 45% of the width */
+  margin-top: 150px; /* Add 30px of space above the video */
+margin-left:50px;
+}
+
+    }
+
+    video {
+      width: 100%; /* Make the video fill its container */
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content">
+    <div class="text">
+      <h1>Mangrove Forest</h1>
+      <p>Mangrove forests are unique ecosystems that grow in coastal intertidal zones, where land and sea meet.
+
+              </p>
+      <p>Mangrove forests are found in tropical and subtropical regions, along coasts and estuaries in 123 countries.
+</p>
+      <p>
+     Mangrove trees are adapted to survive in salty conditions and are often rooted in water. There are around 80 different species of mangrove trees. 
+Features
+Mangrove forests are characterized by their dense tangle of prop roots that make the trees appear to be standing on stilts above the water.
+      </p>
+    </div>
+
+    <!-- Video on the right side -->
+ <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/cwTZhyA57mA?si=f7t4KdSOfa_Jtxc3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </div>
+  </div>
+
+</body>
+</html>
