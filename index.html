@@ -6,6 +6,34 @@
     <title>Polygon Marine Life</title>
 
     <style>
+        /* Default paragraph styling */
+p {
+    word-wrap: break-word;   /* Break long words */
+    overflow-wrap: break-word; /* Prevents content overflow */
+    line-height: 1.6;         /* Increase line height for readability */
+    margin-bottom: 15px;      /* Adds space between paragraphs */
+}
+
+/* For mobile screens */
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 14px;  /* Smaller text size on mobile */
+        padding: 0 10px;  /* Add some padding to prevent text from touching the edges */
+    }
+}
+
+/* For very small screens (phones in portrait mode) */
+@media screen and (max-width: 480px) {
+    p {
+        font-size: 12px;  /* Even smaller text for very small screens */
+        line-height: 1.4;  /* Slightly reduce line-height for compact text */
+        margin-bottom: 10px; /* Reduce space between paragraphs */
+    }
+}
+</style>
+
+    
+    <style>
         /* This ensures the layout doesn't break on smaller screens */
 * {
     box-sizing: border-box;
@@ -249,7 +277,7 @@
     <section class="gallery">
         <h2>ENDANGERED SPECIES</h2>
         <div class="images">
-            <a href="Hawksbillturtle.html" target="_blank">
+            <a href="hawksbillturtle.html" target="_blank">
                 <img src="https://i.pinimg.com/474x/4a/96/0d/4a960da682e4a4747a9d96cdedba60f2.jpg" alt="TURTLE">
             </a>
             <a href="Atlanticwhale.html" target="_blank">
