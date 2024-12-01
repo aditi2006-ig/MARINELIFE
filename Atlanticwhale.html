@@ -4,6 +4,95 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hawksbill Turtle</title>
+
+ <style>
+        /* Default paragraph styling */
+p {
+    word-wrap: break-word;   /* Break long words */
+    overflow-wrap: break-word; /* Prevents content overflow */
+    line-height: 1.6;         /* Increase line height for readability */
+    margin-bottom: 15px;      /* Adds space between paragraphs */
+}
+
+/* For mobile screens */
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 14px;  /* Smaller text size on mobile */
+        padding: 0 10px;  /* Add some padding to prevent text from touching the edges */
+    }
+}
+
+/* For very small screens (phones in portrait mode) */
+@media screen and (max-width: 480px) {
+    p {
+        font-size: 12px;  /* Even smaller text for very small screens */
+        line-height: 1.4;  /* Slightly reduce line-height for compact text */
+        margin-bottom: 10px; /* Reduce space between paragraphs */
+    }
+}
+</style>
+
+    
+    <style>
+        /* This ensures the layout doesn't break on smaller screens */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Adjust text size and layout for devices with smaller screens */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;  /* Adjust body text size */
+    }
+
+    h1, h2, h3, h4 {
+        font-size: 1.2em; /* Make headings slightly smaller */
+    }
+
+    /* Example of resizing a container */
+    .container {
+        padding: 10px;
+        width: 100%; /* Ensure full width */
+    }
+
+    /* If you have large images, ensure they scale down */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Stack elements vertically */
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* For very small devices (e.g., phones in portrait mode) */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px; /* Smaller text for very small screens */
+    }
+
+    h1 {
+        font-size: 1.5em;  /* Make headings a little smaller */
+    }
+
+    .container {
+        padding: 5px;
+    }
+
+    /* Example: Stack columns */
+    .column {
+        width: 100%; /* Ensure columns stack */
+    }
+}
+</style>
+
+
+  
   <style>
     /* General Styles */
     body {
