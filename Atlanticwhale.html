@@ -199,6 +199,37 @@
     }
 
   </style>
+
+<style>
+/* Apply styles for smaller devices */
+@media (max-width: 768px) {
+  /* Fix overlapping content by stacking elements */
+  * {
+    box-sizing: border-box;
+  }
+
+  .content {
+    display: block; /* Ensures block layout for content */
+    margin: 10px 0; /* Adds spacing */
+    width: 100%; /* Makes it occupy full width */
+  }
+
+  /* Scale down large images */
+  img {
+    max-width: 100%; /* Image won't exceed screen width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  /* Add padding or adjust layout for small screens */
+  body {
+    padding: 10px;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+}
+</style>
+
+
+  
 </head>
 <body>
   <!-- Ocean Waves -->
